@@ -14,6 +14,9 @@ const Sectiune1 = () => {
                 <p>
                 Acest curs pornește de la ideea că <strong>ceea ce lipsește din majoritatea sarcinilor noastre este o formă de joc</strong> — acel sentiment de progres, de provocare, de recompensă și de satisfacție care face ca timpul să treacă mai repede și rezultatele să vină mai ușor.
                 </p>
+                <p>
+                  aloo
+                </p>
             </div>
         </div>
     </section>
