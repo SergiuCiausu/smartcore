@@ -14,9 +14,9 @@ const Navbar = () => {
             </Link>
             <ul
                 className="flex items-center gap-5">
-                <li className="primary-color nav-text cursor-pointer"><Link href="/">Cursuri</Link></li>
-                <li className="primary-color nav-text cursor-pointer"><Link href="/">FAQs</Link></li>
-                <li className="primary-color nav-text cursor-pointer"><Link href="/">Cunoaște-ți profesorul</Link></li>
+                <li className="primary-color nav-text cursor-pointer"><Link href="/cursuri">Cursuri</Link></li>
+                <li className="primary-color nav-text cursor-pointer"><Link href="/faq">FAQs</Link></li>
+                <li className="primary-color nav-text cursor-pointer"><Link href="/cunoaste-ti-profesorii">Cunoaște-ți profesorii</Link></li>
                 <li className="primary-color nav-text cursor-pointer"><Link href="/">Recenzii</Link></li>
             </ul>
             <ul
