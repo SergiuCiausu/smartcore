@@ -46,15 +46,15 @@ const Sectiune3 = () => {
             className="w-full flex flex-col items-center gap-16">
             <h3 className="w-[576px] text-center">Aruncă o privire prin cursurile noastre</h3>
             <div
-                className="flex flex-col gap-16">
+                className="flex flex-col gap-32">
                     {cursuri.map((curs, index) => (
                         !(index % 2)
                         ?   
                         <div
-                            className="flex gap-8">
+                            className="flex gap-16">
                             <div
                                 className="flex-50">
-                                <h5>{curs.titlu}</h5>
+                                <h5 id={`cursul-${index + 1}`}>{curs.titlu}</h5>
                                 <p>
                                     {formulare_beneficii}
                                     <ul
@@ -68,19 +68,19 @@ const Sectiune3 = () => {
                             </div>
                             <div
                                 className="flex-50">
-
+                                    <Image src={`/cursul-${index + 1}-img.jpg`} width={1229} height={921} alt="curs banner"></Image>
                             </div>
                         </div>
                         :
                         <div
-                            className="flex gap-8">
+                            className="flex gap-16">
                                 <div
                                     className="flex-50">
-
+                                        <Image src={`/cursul-${index + 1}-img.jpg`} width={1229} height={921} alt="curs banner"></Image>
                                 </div>
                                 <div
                                     className="flex-50">
-                                    <h5>{curs.titlu}</h5>
+                                    <h5 id={`cursul-${index + 1}`}>{curs.titlu}</h5>
                                     <p>
                                         {formulare_beneficii}
                                         <ul

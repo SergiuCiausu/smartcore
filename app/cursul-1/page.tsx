@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <Hero titlu="Joaca nu e doar pentru copii" subtitlu="Trasnformă-ți munca într-un joc pe care vrei să-l maxezi." buton="Înscrie-te acum" />
+      <Hero titlu="Joaca nu e doar pentru copii" subtitlu="Trasnformă-ți munca într-un joc pe care vrei să-l maxezi." buton="Înscrie-te acum"/>
       <div
         className="flex flex-col gap-16 mb-32">
             <div

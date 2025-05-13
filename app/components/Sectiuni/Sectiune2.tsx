@@ -13,14 +13,17 @@ const Sectiune2 = () => {
     <section
         className="w-[1120px] mx-auto">
         <div
-            className="w-full flex flex-col items-center gap-16">
+            className="w-full flex flex-col items-center gap-8 justify-between">
             <h3 className="w-[576px] text-center">Exemple de metode prin care munca ta va deveni mai plăcută</h3>
             <div
                 className="flex gap-4">
-              {metode.map(metoda => (
+              {metode.map((metoda, index) => (
                 <div
-                    className="flex flex-col items-center justify-center gap-2">
-                    <Image src="" width={64} height={64} alt="abc"></Image>
+                    className="flex flex-col items-center justify-between gap-4">
+                      <div
+                        className="flex-50 flex items-end">
+                        <Image src={`/beneficiu-${index + 1}.png`} width={100} height={128} alt="beneficiu icon"></Image>
+                      </div>
                     <p
                         className="bold text-center">
                         {metoda}
